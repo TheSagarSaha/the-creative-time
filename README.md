@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# The Creative Time
+### Time management made easy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<hr />
 
-## Available Scripts
+This is a creative app which uses React and Node.js that helps to schedule tasks and set todo lists easily. The scheduler will automatically set the tasks according to the top priority and with a 15 minute grace period within the tasks. Similarly, the todo lists will contain tags like `important`, `urgent`, `school`, `work`, and many more. 
 
-In the project directory, you can run:
+<br/>
 
-### `yarn start`
+### How to run the app?
+<hr/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Since this web-app requires node, it cannot be published through the github pages. In order to run the app, you will need to execute the following lines of code in your terminal.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+First you will need to make a clone of the current repository:
 
-### `yarn test`
+``` git clone https://github.com/TheSagarSaha/the-creative-time.git ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Then change the directory and go inside source directory:
 
-### `yarn build`
+``` cd the-creative-time ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After you have changed the directory, you will need to download and install the node dependencies to run the web-app. Some of the dependencies include React, React-DOM, and many more. Execute the following line of code to install them. **Note: Make sure you have node installed within your local machine. To check whether you have node running on your computer, you can check the version of your node by running `node --version`. If you do not get an error, you are good to go. But if you encounter an error, please make sure you have installed node correctly.**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+``` npm install```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Please wait unitil all the dependencies are installed. This will take quiet some time since React is a very large module. After you have installed all the dependencies, run the following code:
 
-### `yarn eject`
+```npm start```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The web-app will shortly run and your default web browser will open up. Alternatively, you can also go to your web browser and go to the following URL: `localhost:3000`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This web app was made by Sagar Saha. If you have any questions or run into any problem, or even want to make it better, then feel free to contact me!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<hr />
+<br />
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[TheSagarSaha](https://sagarsaha.tech) © TwentyTwentyOne
