@@ -24,7 +24,7 @@ After you have changed the directory, you will need to download and install the 
 
 ``` npm install```
 
-Please wait unitil all the dependencies are installed. This will take quiet some time since React is a very large module. After you have installed all the dependencies, run the following code:
+Please wait until all the dependencies are installed. This will take quiet some time since React is a very large module. After you have installed all the dependencies, run the following code:
 
 ```npm start```
 
